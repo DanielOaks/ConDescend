@@ -1,0 +1,128 @@
+body {
+    background: #274961 url('../img/bg.png') repeat fixed;
+}
+
+#container {
+    width: 870px;
+    margin:0 auto;
+}
+#header {
+    height: 100px;
+}
+#footer {
+    height: 30px;
+    padding: 5px 0 0;
+    
+    color: #fff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+#header a {
+    display: inline-block;
+}
+#headera {
+    background: url('../img/header.png') no-repeat bottom left;
+    height: 74px;
+    width: 306px;
+    margin: 0 21px -1px 0;
+}
+
+#col-l {
+    min-height: 324px;
+    width: 600px;
+    padding: 19px 19px 19px;
+    float: left;
+    
+    background: #fff;
+    border-radius: 7px;
+    
+    font-family: DeliciousR, Verdana, Geneva, sans-serif;
+    line-height: 1.2;
+}
+#col-r {
+    position: fixed;
+    
+    min-height: 50px;
+    width: 180px;
+    padding: 16px 20px 20px 32px;
+    margin: 19px 0 0 638px;
+    
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 10pt;
+    background: #9abbd2 url('../img/col-r-shadow.png') left repeat-y;
+    border-radius: 0 7px 7px 0;
+}
+
+.col-r-header-space {
+    height: 12px;
+}
+.col-r-sep-space {
+    height: 5px;
+}
+
+.item-div {
+    margin: 0 -19px 0 0;
+    border-radius: 4px 0 0 4px;
+}
+.item-image-full {
+    display:inline-block;
+    width: 100%;
+    height: 140px;
+    border-radius: 4px 0 0 4px;
+}
+.item-space {
+    height: 31px;
+}
+
+.item_html {
+    padding: 15px 30px 15px 70px;
+}
+.item_html_a {
+    display: block;
+    margin: 10px 0 0;
+    text-align: right;
+}
+
+.col-clear {
+    clear: both;
+}
+
+.install-finished {
+    color: #292;
+}
+.install-notfinished {
+    color: #922;
+}
+
+#footer a {
+    color: #aaf;
+    font-style: italic;
+}
+
+h1 {
+    display: block;
+    font-size: 24pt;
+    padding: 0 0 17px;
+    margin: -3px 0 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 15pt;
+    padding: 0 0 8px;
+    font-weight: bold;
+    font-family: DeliciousR;
+}
+h3 {
+    display: block;
+    padding: 0 0 4px;
+    font-weight: bold;
+}
+li {
+    padding: 0 0 4px;
+}
+a {
+    text-decoration: none;
+    color: #20d;
+}
