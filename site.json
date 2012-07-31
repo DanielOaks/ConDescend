@@ -1,0 +1,134 @@
+{
+	"pages": {
+		"Blog": {
+			"icon": "cl/types/blog/icon.png"
+		},
+		"Code": {
+			"icon": "cl/types/code/icon.png"
+		}, 
+		"Design": {}, 
+		"Photos": {}, 
+		"Music": {
+			"icon": "cl/types/music/icon.png"
+		}
+	}, 
+	"items": [
+		{
+			"name": "Example Blog, apparently", 
+			"style": ["text", "blog"], 
+			"pages": ["Blog"], 
+			"text": "Lorem Ipsum etc", 
+			"blog-tags": ["Test"]
+		}, 
+		{
+			"name": "The Next Reddit", 
+			"style": ["text", "link"], 
+			"pages": ["Code", "Design"], 
+			"text": "Implementing someone else's redesign of Reddit, as a userstyle/userscript", 
+			"link-text": "Project Reddit Thread", 
+			"link": "http://www.reddit.com/r/Design/comments/wkskp/the_next_reddit_userstyle/"
+		}, 
+		{
+			"name": "The Edge Checkin System", 
+			"style": ["text", "link"], 
+			"pages": ["Code", "Design"], 
+			"text": "Working with a group at The Edge, making a system to faciliate interaction between users. The Edge is a digital culture center, and getting people connected and helping each other is a challenge, so we're working on a system to make that easier", 
+			"link-text": "Project Github", 
+			"link": "http://theedge.checkinsystem.net"
+		}, 
+		{
+			"name": "Wahwah", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "Playing around with some new sounds, and I think this one turned out nice!", 
+			"soundcloud-url": "danneh/wahwah"
+		}, 
+		{
+			"name": "Orch2", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "Getting a little more familiar with orchestral instruments, particularly the brass and strings", 
+			"soundcloud-url": "danneh/orch2"
+		}, 
+		{
+			"name": "Roleplaying is Magic: Season 2 Edition", 
+			"style": ["image", "link"], 
+			"pages": ["Design"], 
+			"image": "cl/img-links/rim-s2e.png", 
+			"image-height": "140px", 
+			"link-text": "Roleplaying is Magic website", 
+			"link": "http://mlprim.com/s2e"
+		}, 
+		{
+			"name": "Roleplaying is Magic: Season 1 Edition", 
+			"style": ["image", "link"], 
+			"pages": ["Design"], 
+			"image": "cl/img-links/rim-s1e.png", 
+			"image-height": "140px", 
+			"link-text": "Roleplaying is Magic website", 
+			"link": "http://mlprim.com"
+		}, 
+		{
+			"name": "Summer Lite", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "Playing around with covers, this sort of sprung up", 
+			"soundcloud-url": "danneh/summer-lite"
+		}, 
+		{
+			"name": "YabYab", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "This came out very nicely, one of the pieces I'm prouder of. The second half of it was my attempt at a more techno/dubstepy rhythm… Didn't get it exactly, but I'm pleased with how it turned out", 
+			"soundcloud-url": "danneh/yabyab"
+		}, 
+		{
+			"name": "Goshubot", 
+			"style": ["text", "link"], 
+			"pages": ["Code"], 
+			"text": "Modular, Python3 IRC Bot platform", 
+			"link-text": "Project Github",
+			"link": "https://github.com/Danneh/Goshubot"
+		}, 
+		{
+			"name": "Laker", 
+			"style": ["image", "link"], 
+			"pages": ["Photos"], 
+			"image": "cl/img-links/laker.png", 
+			"image-height": "300px", 
+			"link-text": "Picture of a lake close to where I live", 
+			"link": "https://secure.flickr.com/photos/dannehoaks/5920881549"
+		}, 
+		{
+			"name": "Show", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "First foray into orchestral—turned out a little bit creepy, but nice", 
+			"soundcloud-url": "danneh/show"
+		}, 
+		{
+			"name": "Vilo", 
+			"style": ["text", "link"], 
+			"pages": ["Code"], 
+			"text": "NicoNico Media Downloader", 
+			"link-text": "Project Github", 
+			"link": "https://github.com/Danneh/Vilo"
+		}, 
+		{
+			"name": "equinoxnet", 
+			"style": ["image", "link"], 
+			"pages": ["Design"], 
+			"image": "cl/img-links/equinoxnet.png", 
+			"image-height": "140px", 
+			"link-text": "an irc network, that's now been shut down", 
+			"link": "./equinoxnet"
+		}, 
+		{
+			"name": "Red", 
+			"style": ["text", "soundcloud"], 
+			"pages": ["Music"], 
+			"text": "One of my first little tunes, using Milkytracker", 
+			"soundcloud-url": "danneh/red"
+		}
+	]
+}
